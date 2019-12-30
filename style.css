@@ -1,0 +1,36 @@
+h1 {text-align:center; color:black; font-size:300%; font-family:helvetica}
+
+.spl {background-color:white; padding:20px}
+
+.main {font-family:helvetica; text-align:center; color:black; font-size:300%;}
+
+.main1 {font-family:helvetica; text-align:center; color:black; font-size:100%;}
+
+.nav-link {float:right;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+}
+.button:hover .button{
+	background-color:white;
+	color:#ff0040;
+}
+
+  .button {
+  background-color: #ff0040;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  float: right;
+}
+
+.dropdown{
+	  background-color: yellow;
+}
