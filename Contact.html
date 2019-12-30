@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html> 
+<head>
+<link rel="stylesheet" href="style_car.css">
+
+<style>
+body {
+  font-family: Arial, Helvetica, sans-
+sseriferifserif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+/* Style inputs */
+input, select, textarea {
+  width:50%;
+  padding: 6px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px; 
+  resize: vertical;
+}
+input[type=submit] {
+  background-color: #ff0040;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: white;
+  color: #ff0040;
+}
+
+/* Style the container/contact section */
+.container {border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  resize: none;
+
+#name{ margin-right: 20em;}
+}
+}
+</style>
+</head>
+<body>
+
+<div class="spl">
+<img src="LOGO.jpg" width="200" height="200" style="float:left;">
+    <pre><h1 class="main">Hop'On                </h1></pre>
+    <pre><h6 class="main1">Car Rentals                                               </h6></pre>
+
+<br>
+ <button type="button" class="button" onclick="window.location.href = 'Book.html';">Book Now</button>
+ <button type="button" class="button" onclick="window.location.href = 'Contact.html';">Contact Us</button>
+ <button type="button" class="button" onclick="window.location.href = 'About.html';">About Us</button>
+
+
+<br>
+<br>
+<br>
+<hr>
+</div>
+<br><br><br><br>
+<div class="container">
+  <div style="text-align:center">
+    <h2>Contact Us</h2>
+    <p>TOLL FREE NUMBER: +919986833869</p>
+    <p>Email ID: pesuio.sme01@pes.edu</p>
+    <p>Follow our Instagram Page: Hop_On</p>
+    <p>Tweet to us at: @Hop_On</p>
+<p>To get notifications from Hop'On (like offers we give on special days) fill the below form. </p>
+  </div>
+  
+      <img src="Jaguar.jpg" style="width:40%; float:left" >
+</div>
+<p id="form1">
+<form action="">
+   <fieldset>
+   <legend> <h3> <b> Subscription Form </b></h3> </legend>
+   <br> Name &nbsp &nbsp &nbsp:
+   <input type="text" name="name" required>
+   <br> Phone No.:
+   <input type="tel" name="phone" pattern="[0-9]{10}" required>
+   <br> E-mail &nbsp &nbsp &nbsp: 
+   <input type="email" name="email">
+   <br> Comments:
+   <input type="text" name="comments">
+   <br><br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+   <input type="submit" value="Submit">
+  </fieldset>
+</form>
+</p>
+</body>
+</html>
+

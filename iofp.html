@@ -1,0 +1,80 @@
+<html>
+
+<style>
+input,select {
+  width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ff0040;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #ffb3d1;
+  color: black;
+
+}
+
+output {
+  width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ff0040;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #ffb3d1;
+  color: black;
+}
+
+
+input[type=submit] {
+  width: 60%;
+  background-color: #ff0040;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #ff0040;
+  color: white;
+}
+</style>
+
+<head> 
+<title> Form </title>
+</head>
+
+<body>
+<p id="bookingform">
+<form action="bookcon.html"  method="get"
+oninput="price.value=parseInt(noofhours.value)*500">
+   <fieldset>
+   <legend> <h3> <b> BOOKING DETAILS </b></h3> </legend>
+   <br> Name:<br>
+   <input type="text" name="name" required>
+   <br> Address: <br>
+   <input type="text" name="address" required> 
+   <br> Mobile Number:<br>
+   <input type="tel" name="phone" pattern="[0-9]{10}" required>
+   <br> E-mail: <br>
+   <input type="email" name="email">
+   <br> Driver's Licence Number: <br>
+   <input type="text" name="DL_num" required>
+   <br> No.of hours:<br>
+   <input type="number" name="noofhours" min="1" max="24" required>
+   <br> Time of Rental: <br>
+   <input type="time" name="rental" required>
+   <br> Time of Return: <br>
+   <input type="date" name="date" required>
+   <br> Price: <br>
+   <output name="price" for="noofdays"></output>
+   <input type="submit" value="Confirm Booking">
+  </fieldset>
+</form>
+</p>
+</body>
+</html>
